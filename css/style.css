@@ -46,9 +46,9 @@
   }
 
   #headers {
-    display: flex; /* Make headers a flex container */
-    flex-direction: column; /* Stack headers vertically */
-    align-items: center; /* Center headers horizontally */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
     text-align: center; 
 }
 
@@ -75,14 +75,14 @@
     border-radius: 29px;
     border: 0px;
     padding: 0 24px;
-    margin-top: 16px; /* Add some space above the input */
+    margin-top: 16px; 
   }
   
   main {
-    display: flex; /* Make the main a flex container */
-    flex-wrap: wrap; /* Allow cards to wrap to the next row */
-    justify-content: center; /* Center cards horizontally */
-    align-items: center; /* Center cards vertically */
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
     background-color: white;
     padding: 32px 72px;
   }
@@ -105,10 +105,10 @@
   
 
   .card-footer {
-    display: flex; /* Make the footer a flex container */
+    display: flex; 
     flex-wrap: wrap;
-    justify-content: space-between; /* Space children to the edges */
-    padding: 16px; /* Padding for the footer */
+    justify-content: space-between; 
+    padding: 16px; 
     font-size: 14px;
   }
   
@@ -118,27 +118,26 @@
 
   .card {
 
-    margin: 16px; /* Space between cards */
+    margin: 16px; 
 
-    flex: 0 1 300px; /* Allow cards to grow and shrink, with a base width of 300px */
+    flex: 0 1 300px; 
 
-    display: flex; /* Make the card a flex container */
+    display: flex; 
 
-    flex-direction: column; /* Stack children vertically */
+    flex-direction: column; 
+    background-color: white; 
 
-    background-color: white; /* Background color for the card */
+    border-radius: 8px; 
 
-    border-radius: 8px; /* Rounded corners */
-
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 
 }
 
   
   #subnav {
-    display: flex; /* Make the subnav a flex container */
-    justify-content: space-between; /* Space items to the edges */
-    align-items: center; /* Vertically center the items */
+    display: flex; /
+    justify-content: space-between; 
+    align-items: center; 
     padding: 32px 72px 0;
     background-color: white;
   }
@@ -157,8 +156,8 @@
 }
   
   #trending p {
-    display: inline-block; /* Make trending items inline */
-    margin: 4px; /* Add some margin between trending items */
+    display: inline-block; 
+    margin: 4px; /
     background-color: white;
     color: black;
     border-radius: 50px;
