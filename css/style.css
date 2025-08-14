@@ -119,25 +119,6 @@
     justify-content: space-between
   }
 
-  .card {
-
-    margin: 16px; 
-
-    flex: 0 1 300px; 
-
-    display: flex; 
-
-    flex-direction: column; 
-
-    background-color: white; 
-
-    border-radius: 8px; 
-
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-
-}
-
-  
   #subnav {
     display: flex; 
     justify-content: space-between; 
